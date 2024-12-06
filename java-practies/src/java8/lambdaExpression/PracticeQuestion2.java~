@@ -1,0 +1,7 @@
+package java8.lambdaExpression;
+//Task-2 : Take list of persons and print persons whose age is >= 18 using Lambda Expression
+public class PracticeQuestion2 {
+    public static void main(String[] args) {
+
+    }
+}
