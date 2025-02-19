@@ -44,7 +44,7 @@ public class MaxMin {
     // O(n)
     public static int maxElement(int arr[])
     {
-        int largest=arr[0];
+        int largest=Integer.MIN_VALUE;
         for (int i = 0; i <arr.length ; i++) {
             if (largest<arr[i])
             {
@@ -56,7 +56,7 @@ public class MaxMin {
 
     public static int minElement(int arr[])
     {
-        int smallest=arr[0];
+        int smallest=Integer.MAX_VALUE;
         for (int i = 0; i <arr.length ; i++) {
             if (smallest>arr[i])
             {
